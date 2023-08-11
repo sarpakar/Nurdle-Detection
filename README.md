@@ -35,9 +35,6 @@ pip install ultralytics
 
 For alternative installation methods including [Conda](https://anaconda.org/conda-forge/ultralytics), [Docker](https://hub.docker.com/r/ultralytics/ultralytics), and Git, please refer to the [Quickstart Guide](https://docs.ultralytics.com/quickstart).
 
-</details>
-
-<details open>
 <summary>Usage</summary>
 
 #### CLI
