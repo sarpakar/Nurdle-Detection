@@ -31,7 +31,7 @@ See below for a quickstart installation and usage example
 
 
 
-```bash
+```python
 !pip install ultralytics
 !pip install labelme2yolo
 import torch
@@ -40,7 +40,7 @@ from ultralytics import YOLO
 drive.mount("/content/gdrive")
 
 ```
-```bash
+```python
 print('torch %s %s' % (torch.__version__, torch.cuda.get_device_properties(0) if torch.cuda.is_available() else 'CPU'))
 
 ```
