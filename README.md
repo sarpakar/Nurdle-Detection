@@ -38,11 +38,10 @@ import torch
 from google.colab import drive
 from ultralytics import YOLO
 drive.mount("/content/gdrive")
-
 ```
+
 ```python
 print('torch %s %s' % (torch.__version__, torch.cuda.get_device_properties(0) if torch.cuda.is_available() else 'CPU'))
-
 ```
 
 </details>
