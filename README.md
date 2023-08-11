@@ -18,16 +18,16 @@ In 2023, despite the year, 32% of plastic production continues to escape into na
 
 * Visible Light (Microscopy) is used based on microplastics' light, color, and shape, but it lacks accuracy and is subject to human dependence. Scanning electron microscopy, while powerful, is costly and not easily scalable due to its specialized equipment. FTIR, a standard technique for identifying synthetic polymers, is non-destructive but also operates on a microscopic scale, limiting its scalability.
 
-## <div align="center">Documentation</div>
+* Raman spectroscopy, AFM-Infrared, and modified gas chromatography techniques are other microscopic methods used. However, there's a potential for scalability with Flow Cytometry, even though it's typically used for blood cell analysis. The concept of using its working principle for microplastic detection holds promise.
 
-See below for a quickstart installation and usage example, and see the [YOLOv8 Docs](https://docs.ultralytics.com) for full documentation on training, validation, prediction and deployment.
+Ultimately, the use of image detection with cameras emerged as a more reasonable option.
 
-<details open>
+## Documentation
+
+See below for a quickstart installation and usage example
+
 <summary>Install</summary>
 
-Pip install the ultralytics package including all [requirements](https://github.com/ultralytics/ultralytics/blob/main/requirements.txt) in a [**Python>=3.8**](https://www.python.org/) environment with [**PyTorch>=1.8**](https://pytorch.org/get-started/locally/).
-
-[![PyPI version](https://badge.fury.io/py/ultralytics.svg)](https://badge.fury.io/py/ultralytics) [![Downloads](https://static.pepy.tech/badge/ultralytics)](https://pepy.tech/project/ultralytics)
 
 ```bash
 pip install ultralytics
@@ -74,6 +74,4 @@ path = model.export(format="onnx")  # export the model to ONNX format
 
 ## <div align="center">Models</div>
 
-* Raman spectroscopy, AFM-Infrared, and modified gas chromatography techniques are other microscopic methods used. However, there's a potential for scalability with Flow Cytometry, even though it's typically used for blood cell analysis. The concept of using its working principle for microplastic detection holds promise.
 
-Ultimately, the use of image detection with cameras emerged as a more reasonable option.
