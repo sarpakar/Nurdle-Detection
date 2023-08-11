@@ -26,12 +26,13 @@ Ultimately, the use of image detection with cameras emerged as a more reasonable
 
 See below for a quickstart installation and usage example
 
-<summary>Install</summary>
+<summary>Install
 
 
 ```bash
 pip install ultralytics
 ```
+</summary>
 
 For alternative installation methods including [Conda](https://anaconda.org/conda-forge/ultralytics), [Docker](https://hub.docker.com/r/ultralytics/ultralytics), and Git, please refer to the [Quickstart Guide](https://docs.ultralytics.com/quickstart).
 
