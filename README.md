@@ -51,6 +51,13 @@ print('torch %s %s' % (torch.__version__, torch.cuda.get_device_properties(0) if
 <details open>
 <summary>Usage</summary>
 
+#### Data Preparation
+
+converts labelme labels into coco format and splits the data into train validation, and test directories 
+```python
+!labelme2yolo --json_dir ./Images_and_Label --val_size 0.15 --test_size 0.15
+```
+
 
 #### CLI
 
@@ -61,7 +68,6 @@ YOLOv8 may be used directly in the Command Line Interface (CLI) with a `yolo` co
 ```
 
 #### Python
-
 
 ```python
 model = YOLO("yolov8n.pt")
